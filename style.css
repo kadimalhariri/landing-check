@@ -45,7 +45,7 @@
 .logo {
   width: 11%;
 }
-.btn-movil {
+.movil {
   display: none;
 }
 .cards {
@@ -67,9 +67,16 @@ footer {
       align-items: center;
       display: flex;
      }
-     .btn-movil {
+     .movil {
       display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+    .movil i {
+      font-size: 25px;
+    }
+    
      .top h2{
       display: none;
      }
